@@ -9,8 +9,8 @@ export default function header(){
         </div>
         <div class="caixamenu">
             <div class="Btts">
-                <button class="BotaoHeader">Entre em contato</button>
-                <button class="BotaoHeader">Abra a sua conta</button>
+                <button>Entre em contato</button>
+                <button>Abra a sua conta</button>
             </div>
             <div>
                 <nav>

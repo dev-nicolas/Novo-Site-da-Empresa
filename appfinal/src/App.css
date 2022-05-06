@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200&display=swap');
+
 *{
 margin: 0;
 padding: 0;
 border: 0;
 list-style: none;
+font-family: Blinker;
 }
+body{
+    background-color: #144371;
+}
+
 a {
     text-decoration: none;
     color: white;
 }
+
+/*CSS HEADER*/
 
 .header{
     width: 100%;
@@ -43,4 +52,70 @@ a {
 .menu li a{
     display: block;
     margin:0px 15px 0px 0px;
+}
+
+/*CSS CAPA HOME*/
+
+.CapaHome{
+    height: 45em;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.CapaHome button{
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    background-color: #126B87;
+    color: white;
+    margin-top: 25px;
+}
+
+/*CSS SESSAO2*/
+
+.SessaoDivs{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 7vh 8vh 10vh 40vh; 
+    color: white; 
+}
+.ttl{
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.4em
+}
+.ttlp{
+    grid-column: 1/3;
+    grid-row: 3/3;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+    font-size:1.5em
+}
+.prgf{
+    grid-column: 1/2;
+    grid-row: 4/4;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+    font-size: 1.5em;
+}
+.ifrm{
+    grid-column: 2/2;
+    grid-row: 3/4;
+    padding-right: 50px;
+}
+
+/*CSS SESSAO3*/
+
+.Sessao3Divs{
+    background-color: #E0DBC2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
